@@ -21,30 +21,63 @@ header {
   justify-content: flex-start;
 }
 
+.flex-items-default {
+  /*width: 300px;*/
+  height: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+
 nav {
   display: flex;
   background-color: skyblue;
   width: 100%;
   height: 2em;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+
 }
 
+.nav-button {
+background-color: red;
+width: 1em;
+height: 80%;
+flex-basis: 200px;
+}
+
+.button1 {
+  background-color: purple;
+}
+
+.button2 {
+  background-color: blue;
+}
+
+.button3 {
+  background-color: yellow;
+}
+
+
+/*
 nav ul {
   display: flex;
-  align-items: stretch;
+  /*align-items: stretch;
+  justify-content:
 }
 
-nav li {
+/*nav li {
   background-color: red;
   width: 10vw;
   height: 10vh;
-  display: inline;
+  display: inline;*/
   /*justify-content: flex-end;*/
-  flex-direction:row;
+  /*flex-direction:row;
   position: relative;
   align-items: stretch;
   justify-content: space-between;
-}
+}*/
 
 
 
