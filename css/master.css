@@ -6,3 +6,8 @@
 .container {
   display: flex;
 }
+
+footer {
+  display: flex;
+
+}
