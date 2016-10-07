@@ -6,18 +6,20 @@
 .container {
   display: flex;
   /*leave background color as white for now*/
+  flex-direction: column;
 }
 
 header {
   display: flex;
   background-color: rgb(100, 100, 100);
   width: 100%;
+  height: 450px;
 }
 
 .logo {
   background-color: rgb(150, 150, 150);
-  width: 50vh;
-  length: 50vw;
+  width: 120px;
+  height: 120px;
   justify-content: flex-start;
 }
 
@@ -59,27 +61,72 @@ flex-basis: 200px;
   background-color: yellow;
 }
 
-
-/*
-nav ul {
+.carousel {
   display: flex;
-  /*align-items: stretch;
-  justify-content:
+  width: 100vw;
+  height: 450px;
+  background-color: orange;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/*nav li {
-  background-color: red;
-  width: 10vw;
-  height: 10vh;
-  display: inline;*/
-  /*justify-content: flex-end;*/
-  /*flex-direction:row;
-  position: relative;
-  align-items: stretch;
-  justify-content: space-between;
-}*/
+.carousel-box {
+  width: 18vw;
+  background-color: black;
+  height: 90%;
+}
 
+.section-two {
+  display: flex;
+  width: 100vw;
+  height: 450px;
+  background-color: lightgreen;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;;
+}
 
+.circle-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+.column-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+.column-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+.pic-caption {
+  height: 90px;
+  width: 250px;
+  background-color: pink;
+}
 
 footer {
   display: flex;
