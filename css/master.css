@@ -80,7 +80,8 @@ flex-basis: 200px;
 
 .section-two {
   display: flex;
-  width: 100vw;
+  /*padding: 2em 0 2em 0;*/
+  width: 100%;
   background-color: lightgreen;
   align-content: space-around;
   flex-wrap: wrap;
@@ -92,6 +93,10 @@ flex-basis: 200px;
   width: 250px;
   border-radius: 50%;
   background-color: pink;
+}
+
+.column-one, .column-two, .column-three {
+  margin: 2em;
 }
 
 .column-one {
