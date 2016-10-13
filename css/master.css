@@ -81,7 +81,6 @@ flex-basis: 200px;
 .section-two {
   display: flex;
   width: 100vw;
-  height: 450px;
   background-color: lightgreen;
   align-content: space-around;
   flex-wrap: wrap;
