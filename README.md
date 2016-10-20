@@ -31,10 +31,8 @@ There were no tests performed on this.
 
 Contributors
 
-- Beseiso, Jordan (rockinJS)
 - Black, Kevin (KevinUtah)
 - Furness, Kelly (kfurness)
-- Hamilton, Chelsea (chelhami)
 - LaMarr, Ashly (SurlyMae)
 - Morales, Sergio (Svartingknas)
 - Rapp, Trevor (trrapp12)
