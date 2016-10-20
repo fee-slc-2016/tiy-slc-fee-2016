@@ -1,5 +1,3 @@
-This is our README file
-
 Synopsis
 
 The cohort is broken into two groups to complete a class project.  We were given an incomplete html document and css page.  We were to complete the page working in separate locations and not able to communicate except through our 'issue' statements via GitHub.
