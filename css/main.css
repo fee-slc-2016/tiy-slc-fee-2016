@@ -33,6 +33,8 @@ body {
 }
 
 .logo {
-  height: 80px;
+  height: 40px;
   width: auto;
-  padding: 12px;
+  margin: auto;
+  margin-top: 5px;
+}
