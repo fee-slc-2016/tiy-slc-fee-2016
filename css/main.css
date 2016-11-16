@@ -28,13 +28,13 @@ body {
   max-height: 350px;
 }
 
-<<<<<<< HEAD
 .bio {
   min-height: 340px;
-=======
+}
+
 .logo {
-  height: 80px;
+  height: 40px;
   width: auto;
-  padding: 12px;
->>>>>>> 26a8ec78cebd8c8ca2c9a48251eeaa134e96d31b
+  margin: auto;
+  margin-top: 5px;
 }
