@@ -22,3 +22,8 @@ body {
   background-color: rgb(200, 200, 200);
 
 }
+
+.teamMember {
+  min-height: 350px;
+  max-height: 350px;
+}
