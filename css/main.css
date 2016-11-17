@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
 body {
   font-size: 16px;
+  height: 100%;
 }
 
 .navbar {
@@ -37,4 +46,25 @@ body {
   width: auto;
   margin: auto;
   margin-top: 5px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.6em;
+}
+
+
+footer {
+  background-color: grey;
+  margin-top: 2em;
+  height: 100px;
+}
+
+.fb {
+  height: 30px;
+}
+
+.page-wrap {
+  min-height: 100%;
 }
