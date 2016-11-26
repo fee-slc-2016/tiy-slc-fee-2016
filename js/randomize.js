@@ -20,6 +20,15 @@ for(var i = 0; i < cards.length - 1; i++) {
   var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
   cards.eq(target).before(cards.eq(target2));
 }
+
+// DrewMattOnHover
+
+$('#drewMattHover').hover(function() {
+  $(this).attr('src', './images/drewMatt3.jpg')
+}, function() {
+  $(this).attr('src', './images/drewMatt2.jpg')
+})
+
 // twitter javascript
 window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
