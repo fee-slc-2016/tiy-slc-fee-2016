@@ -69,3 +69,11 @@ footer {
 .page-wrap {
   min-height: 100%;
 }
+
+.car-img {
+  max-height: 55vh;
+}
+
+.kelly-car {
+  color: #2f3f4f;
+}
