@@ -16,10 +16,28 @@ body {
 }
 
 .jumbotron {
-  background-image: url(./images/TIY_Group.jpg);
-  /*padding-top: 175px;
-  padding-bottom: 175px;*/
+  background-image: url('../images/TIY_Group.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+@media (max-width: 767px) {
+  .jumbotron{
+    background-image: url('../images/TIY_Group.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.jumbo-text {
+  background-color: rgba(252,252,252,0.5);
+  margin-top: 150px;
+  text-align: center;
+}
+
+
 
 @media screen and (min-width: 768px) {
   .jumbotron {
