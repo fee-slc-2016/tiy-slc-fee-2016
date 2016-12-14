@@ -93,11 +93,11 @@ footer {
   max-height: 55vh;
 }
 
-.kelly-car {
+.dark-text {
   color: #2f3f4f;
 }
 
-.joni-carousel
+.light-text-shadow
  {
   color: #EDF7DE;
   text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
